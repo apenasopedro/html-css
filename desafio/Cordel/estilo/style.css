@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'sina' ;
+    src: url('../fontes/sinamidemo.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'floria';
+    src: url('../fontes/florilanecardillac.ttf') format('truetype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    min-height: 150px;
+    padding-top: 50px;
+
+}
+header h1{
+    font-family: 'floria','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+}
+header p>a {
+    text-decoration: none;
+    color: #F28705
+
+}
+header p>a:hover {
+    text-decoration: underline;
+    
+
+}
+main article {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+main article>p.paragrafo{
+    
+    font-family: 'sina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+
+}
+main article#img1{
+    
+    background: black url('../imagens/backgroudn01.jpg') center top no-repeat fixed;
+    background-size: cover;
+    font-family: 'sina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    box-shadow: inset 6px 6px 13px 0 px rgba(0, 0, 0, 0.671);
+    
+        
+}
+main article#img1>p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 400px;
+    padding-left: 10px;   
+}
+
+main article#img2{
+    background: black url('../imagens/backgroudn02.jpg') center top no-repeat fixed;
+    background-size: cover;
+    font-family: 'sina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+      
+}
+main article#img2>p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 400px;
+    padding-left: 10px; 
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white
+}
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+}

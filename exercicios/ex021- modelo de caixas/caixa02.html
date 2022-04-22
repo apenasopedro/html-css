@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(122, 119, 119);
+            margin:0px;
+        }
+        header{
+            background-color: darkgray;
+            text-align: center;
+            border: 1px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px 20px 1px 1px;
+        }
+        main{
+            background-color: rgb(39, 39, 39);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        article{
+            
+            color: white;
+            padding: 1px;
+        }
+        article > aside{
+            text-decoration: underline;
+            text-align: right;
+        }
+        nav{
+            background-color: white;
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+            border-radius: 10px 10px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 1px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+       
+    
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Inicio |</a>
+            <a href="#">Noticias |</a>
+            <a href="#">Esportes |</a>
+            <a href="#">Duvidas</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias De Hoje</h2>
+                <p style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum mollitia error deserunt! Sit fugiat libero itaque veritatis repellat, perspiciatis eos voluptate praesentium beatae a consecte Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt blanditiis autem sapiente animi nisi consequatur assumenda exercitationem. Nam eligendi magni dolor velit dolores qui magnam explicabo, maiores aperiam facilis voluptatem. tur saepe nobis, culpa cupiditate.</p>
+                <aside>
+                    <p>Artigo escrito por Mr. X</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo PedrL</p>
+    </footer>
+</body>
+</html>

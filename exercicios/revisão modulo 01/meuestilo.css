@@ -1,0 +1,17 @@
+body{
+    background-color: darkolivegreen;
+
+}
+h1{
+    background-color: black;
+    color: aliceblue;    
+}
+hr{
+    color: black;
+}
+h2{
+    background-color: beige;
+}
+p{
+    font-size: large;
+}

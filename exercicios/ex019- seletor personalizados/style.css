@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+    html -> id = css-> # (unico elemento)
+    html -> class = css -> . (varios elementos)
+
+
+*/
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(17, 46, 37);
+}
+h1#principal{
+    text-align: center;
+    background-color: rgb(28, 58, 48);
+    color: white;
+}
+h2{
+    color: rgb(49, 134, 106);
+}
+.basico{
+    color: rgb(17, 95, 69);
+}
+.intermediario{
+    color: rgb(150, 150, 5);
+}
+.avancado{
+    color: rgb(158, 9, 9);
+}
+p{
+    text-align: justify;
+}
